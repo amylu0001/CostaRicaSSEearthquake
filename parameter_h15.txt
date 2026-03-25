@@ -1,0 +1,21 @@
+-costarica1km.dat
+./h15_out/
+./shear_stiffness/
+./normal_stiffness/
+./input_h15/
+./1km_grid2_patches/
+./h15_out/out0-test.dat
+./profiles/costarica_temp_depth_profile.dat
+5 132904 898 148 100 8000 34225 6947 3190 77086 4792 !Nab,Nt_all,Nt,nprocs,hnucl,nre,nsouth,nnorth,neqzone,nssezone,nnshallow
+0 1 4 0 0                !Idin, Idout Iprofile, Iperb,Isnapshot
+2.0  0.98  1.03 1.0      ! (factor1 factor2 factor3 factor4)
+77.0                     !    Vpl (mm/yr)
+20.0 45.0                !xilock1 xilock2 (SSE depth)
+500.0 25.0 10.0862         !sigmadiff, sefffix (bar), Lffix (mm)
+400.0                    ! tmax
+0.0 5.0           !tslip_ave  tslip_aveint
+100.0 1.0 3.17d-8       !tint_out tmin_out tint_cos (3.17d-8 is 1sec)
+5.0 240.0 400.0         !vcos (mm/s), vsse1(3Vpl) vsse2 (5Vpl, mm/yr)
+0.0 2000.0                                           ! sse start and end times to record moment
+100 500 500 500 500 500                                       !nmv,nas,ncos,nsse,nslip,nssere
+32081 15189 5372 4900 3138 10000 18071 20293       ! output element index (s1-s8)
