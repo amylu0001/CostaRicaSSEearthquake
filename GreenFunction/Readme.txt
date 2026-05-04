@@ -6,7 +6,7 @@ To calculate your own Green's function from a geometry file:
 Line 1: n_vertex, n_edge, n_cell   <--- total numbers of the vertex, edge, and cell
 Line 2 to [1+n_vertex]: vertex(:,1), vertex(:,2), vertex(:,3) <--- coordinates of each vertex
 Line [2+n_vertex] to [1+n_vertex+n_edge]: edge(:, 1), edge(:, 2) <--- edge, connection between two vertices
-Line [2+n_vertex+n_edge] to [1+n_vertex+n_edge+n_cell]: cell(:, 1), cell(:, 2), cell(:, 3) <--- three vertice that forms a trigle
+Line [2+n_vertex+n_edge] to [1+n_vertex+n_edge+n_cell]: cell(:, 1), cell(:, 2), cell(:, 3) <--- three vertices to form a trigle
 
 * In the edge and cell lines, you should write the number of the vertices. For example, vertices 1, 2, and 3 form a triangle. The vertices connect with each other to form 3 edges. And these 3 egdes forms a triangle. You should write:
 Edge line:    1, 3
