@@ -9,6 +9,7 @@ How to use this package:
    This program is compiled with the Intel Fortran compiler.
 
 This program uses 148 CPUs. If you want to change the number of CPUs, make sure the number of cells is divisible by the number of CPUs. Change the variable nproc in ./GreenFunction (check readme.txt in the directory). Edit the parameter.txt file:
+
 line 9: modify the third and fourth input, the third input is n_cell/nproc, the fourth input is nproc
 
 
