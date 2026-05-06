@@ -11,6 +11,10 @@ How to use this package:
 
    This program is compiled with the Intel Fortran compiler.
 
+4. To run the program:
+
+   ./program_run parameter_h15.txt
+
 This program uses 148 CPUs. If you want to change the number of CPUs, make sure the number of cells is divisible by the number of CPUs. Change the variable nproc in ./GreenFunction (check readme.txt in the directory). Edit the parameter.txt file:
 
 line 9: 5 132904 898 148 100 8000 34225 6947 3190 77086 4792 
